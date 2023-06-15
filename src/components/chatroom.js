@@ -178,12 +178,12 @@ const Chatroom = (props) => {
 //             value={newMessage}
 //             onChange={(e) => setNewMessage(e.target.value)}
 //           />
-          {<textarea
+          <textarea
             rows="2"
             cols="25 "
             value={newMessage}
             onChange={(e) => setNewMessage(e.target.value)}
-          />}
+          />
 
           <datalist id="suggestions">
             {valueData.sort().map((option) => (
