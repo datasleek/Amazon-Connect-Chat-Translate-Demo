@@ -46,7 +46,7 @@ const Chatroom = (props) => {
       });
     }
     // this ensure that the input box has the focus on load and after each entry
-    input.current.focus();
+//     input.current.focus();
   }, []);
 
   async function handleSubmit(event) {
