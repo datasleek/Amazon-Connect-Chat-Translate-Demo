@@ -7,38 +7,9 @@ function Deposition() {
   const DepositionHandleChnage = async (e) => {
     setLoading(true);
     console.log(e.target.value);
-    // const myValue = localStorage.getItem("myKey");
-    // if (myValue) {
-    //   //post method
-    //   const data = {
-    //     disposition_code: e.target.value,
-    //     contact_id: myValue,
-    //   };
-    //   // console.log(data);
-    //   const response = await fetch(Depositionurl, {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify(data),
-    //   });
-    //   const json = await response.json();
-    //   setLoading(false);
-    //   console.log(json);
-    //   if (json.statusCode === 200) {
-    //     alert("Contact attributes updated successfully");
-    //   } else {
-    //     alert("Contact attributes updated failed");
-    //   }
-    // } else {
-    //   alert("something went wrong");
-    //   setLoading(false);
-    // }
-    // console.log(myValue);
+    
   };
-  //   const sahil = "232332222";
-  //   localStorage.setItem("myKey", sahil);
-
+ 
   return (
     <>
       <div className="DepositionContainer">
