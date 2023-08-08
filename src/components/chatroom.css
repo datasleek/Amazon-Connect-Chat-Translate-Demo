@@ -21,7 +21,7 @@ p {
 }
 
 .chatroom {
-  width: 335px;
+  width: 35rem;
   height: 485px;
   background-color: #FFFFFF;
   border-radius: 5px;
@@ -92,6 +92,7 @@ p {
 .chatroom .input {
   height: 40px;
   width: 100%;
+  
   background: #4A4A4A;
   display: flex;
   flex-direction: row;
@@ -129,4 +130,40 @@ p {
 .chatroom .input input[type="submit"]:hover {
   background: #4A4A4A;
   color: #FFF;
+}
+
+.DepositionContainer{
+  height: 485px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border:2px solid gray;
+}
+.Depositionheader{
+  background-color: #4a4a4a;
+  color: #fff;
+  margin: 0;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.DepositionCode{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  margin-top:14px;
+}
+
+.DepositionCode button{
+  border:none;
+  font-size:1rem; 
+  padding: 7px;
+  background: none;
+}
+.DepositionCode button:hover{
+  background-color: #4a4a4a;
+  color: #fff;
+  cursor: pointer;
 }
