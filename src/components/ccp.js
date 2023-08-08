@@ -225,5 +225,4 @@ const Ccp = () => {
         </main>
     );
 };
-
 export default Ccp;
