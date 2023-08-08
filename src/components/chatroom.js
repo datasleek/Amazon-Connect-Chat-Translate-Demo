@@ -18,11 +18,6 @@ const Chatroom = (props) => {
   const messageEl = useRef(null);
   const input = useRef(null);
 
-  const Fakeoptions = [
-    { value: 'activity cancel', label: 'hello' },
-    { value: 'option2', label: 'Option 2' },
-    { value: 'option3', label: 'Option 3' },
-  ];
   function getKeyByValue(object) {
     let obj = languageTranslate.find(
       (o) => o.contactId === currentContactId[0]
@@ -56,7 +51,7 @@ const Chatroom = (props) => {
 
   async function handleSubmit(event) {
     setLoading(true);
-   
+    
     event.preventDefault();
     // if there is no text in the the chat input box, do nothing.
     if (newMessage === "") {
